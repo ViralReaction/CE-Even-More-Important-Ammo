@@ -1,0 +1,35 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Settings.cs">
+    <Files>
+      <File FileName="Settings.cs" Line="82" Column="34" />
+      <File FileName="AmmoTweak/Crafting/AmmoRecipes.cs" Line="19" Column="41" />
+      <File FileName="AmmoTweak/Crafting/AmmoRecipesDebug.cs" Line="14" Column="82" />
+      <File FileName="AmmoTweak/Crafting/AmmoRecipeDebug.cs" Line="22" Column="23" />
+      <File FileName="AmmoTweak/Crafting/AmmoRecipe.cs" Line="20" Column="58" />
+      <File FileName="AmmoTweak/Crafting/RecipeInput.cs" Line="44" Column="14" />
+      <File FileName="AmmoTweak/Crafting/RecipeOutput.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CombatExtendedAmmoTweaks" expanded="True">
+            <Node name="CombatExtendedAmmoTweaks" expanded="True">
+              <Node name="AmmoTweak" expanded="True">
+                <Node name="Crafting" expanded="True" />
+                <Node name="Stock" expanded="True" />
+                <Node name="Trading" expanded="True" />
+              </Node>
+              <Node name="Settings.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+</Properties>

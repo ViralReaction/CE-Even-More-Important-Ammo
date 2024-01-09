@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <AssemblyName>AmmoTweaksCE</AssemblyName>
+    <OutputPath>..\Assemblies\</OutputPath>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ProjectGuid>{A91C6F98-C174-47FD-8E8F-58470DEFF712}</ProjectGuid>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>True</Optimize>
+    <DefineConstants>TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <AssemblyName>CombatExtendedImportantAmmo</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="..\..\dependencies\*.dll">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="..\..\dependencies\CE\*.dll">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="..\..\dependencies\UnityEngine\*.dll">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="CombatExtended">
+      <HintPath>..\..\CombatExtended\Assemblies\CombatExtended.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\..\..\..\..\Games\Rimworld C# Packages\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="*.cs" />
+    <Compile Include="*\*.cs" />
+    <Compile Include="*\*\*.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Target Name="Build">
+  </Target>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
