@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Combat Extended Important Ammo</name>
+	<name>Combat Extended Even More Important Ammo</name>
 	<author>Sladki, VladLecteur</author>
 	<supportedVersions>
 		<li>1.4</li>
 	</supportedVersions>
-	<packageId>VladLecteur.CombatExtendedImportantAmmo</packageId>
+	<packageId>VR.CombatExtendedImportantAmmo</packageId>
 	<url>https://ludeon.com/forums/index.php?topic=41965.0</url>
 	<modDependencies>
 		<li>
@@ -27,6 +27,7 @@
 	</loadAfter>
 	<incompatibleWith>
 		<li>sladki.AmmoTweaksCE</li>
+		<li>VladLecteur.CombatExtendedImportantAmmo</li>
 	</incompatibleWith>
 	<description>Makes you care about ammunition:
 - Ammo is harder to produce (less output and requires chemfuel)
