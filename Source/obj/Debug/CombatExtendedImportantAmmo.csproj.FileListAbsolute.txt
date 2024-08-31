@@ -5,3 +5,12 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\2895478795\Assemblie
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\2895478795\Source\obj\Debug\CombatExtendedImportantAmmo.csproj.CopyComplete
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\2895478795\Source\obj\Debug\CombatExtendedImportantAmmo.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\2895478795\Source\obj\Debug\CombatExtendedImportantAmmo.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Combat-Extended-Important-Ammo\Assemblies\CombatExtendedImportantAmmo.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Combat-Extended-Important-Ammo\Assemblies\CombatExtendedImportantAmmo.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Combat-Extended-Important-Ammo\Source\obj\Debug\CombatExtendedImportantAmmo.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Combat-Extended-Important-Ammo\Source\obj\Debug\CombatExtendedImportantAmmo.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Combat-Extended-Important-Ammo\Source\obj\Debug\CombatExtendedImportantAmmo.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Combat-Extended-Important-Ammo\Source\obj\Debug\CombatExtendedImportantAmmo.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Combat-Extended-Important-Ammo\Source\obj\Debug\CombatExtendedImportantAmmo.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Combat-Extended-Important-Ammo\1.5\Assemblies\CombatExtendedImportantAmmo.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Combat-Extended-Important-Ammo\1.5\Assemblies\CombatExtendedImportantAmmo.pdb

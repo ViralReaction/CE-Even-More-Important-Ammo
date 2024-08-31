@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Krafs.Publicizer.2.2.1\build\Krafs.Publicizer.props" Condition="Exists('packages\Krafs.Publicizer.2.2.1\build\Krafs.Publicizer.props')" />
   <PropertyGroup>
     <AssemblyName>AmmoTweaksCE</AssemblyName>
     <OutputPath>..\Assemblies\</OutputPath>
@@ -19,7 +20,6 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <AssemblyName>CombatExtendedImportantAmmo</AssemblyName>
-    <OutputPath>..\1.5\Assemblies\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="..\..\dependencies\*.dll">
@@ -32,10 +32,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="0Harmony">
-      <HintPath>..\..\ProcessorFramework\1.5\Assemblies\0Harmony.dll</HintPath>
-    </Reference>
-    <Reference Include="CombatExtended">
-      <HintPath>..\..\CombatExtended\Assemblies\CombatExtended.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Games\Rimworld C# Packages\0Harmony.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -44,16 +41,17 @@
     <Compile Include="*\*\*.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Krafs.Publicizer">
-      <Version>2.2.1</Version>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
-    <PackageReference Include="Krafs.Rimworld.Ref">
-      <Version>1.5.4146-beta</Version>
-    </PackageReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <Target Name="Build">
   </Target>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Krafs.Publicizer.2.2.1\build\Krafs.Publicizer.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Krafs.Publicizer.2.2.1\build\Krafs.Publicizer.props'))" />
+    <Error Condition="!Exists('packages\Krafs.Publicizer.2.2.1\build\Krafs.Publicizer.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Krafs.Publicizer.2.2.1\build\Krafs.Publicizer.targets'))" />
+  </Target>
+  <Import Project="packages\Krafs.Publicizer.2.2.1\build\Krafs.Publicizer.targets" Condition="Exists('packages\Krafs.Publicizer.2.2.1\build\Krafs.Publicizer.targets')" />
 </Project>
