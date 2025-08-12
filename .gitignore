@@ -1,3 +1,6 @@
 *.pdb
 1.6/Assemblies/0Harmony.dll
 1.6/Assemblies/CombatExtended.dll
+Assemblies/0Harmony.dll
+Assemblies/CombatExtended.dll
+Assemblies/CombatExtendedImportantAmmo.dll

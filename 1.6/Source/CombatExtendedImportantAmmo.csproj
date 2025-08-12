@@ -24,7 +24,7 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <AssemblyName>CombatExtendedImportantAmmo</AssemblyName>
-    <OutputPath>..\..\Assemblies\</OutputPath>
+    <OutputPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Combat-Extended-Important-Ammo\1.6\Assemblies</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="..\..\dependencies\*.dll">

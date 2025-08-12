@@ -2,6 +2,13 @@
 <Configuration>
   <Excluded>
     <exclude>.git</exclude>
-    <exclude>Source</exclude>
+    <exclude>1.5\Source</exclude>
+    <exclude>1.6\Assemblies\0Harmony.dll</exclude>
+    <exclude>1.6\Assemblies\0Harmony.pdb</exclude>
+    <exclude>1.6\Assemblies\CombatExtended.dll</exclude>
+    <exclude>1.6\Assemblies\CombatExtended.pdb</exclude>
+    <exclude>1.6\Assemblies\CombatExtendedImportantAmmo.pdb</exclude>
+    <exclude>1.6\Source</exclude>
+    <exclude>Assemblies</exclude>
   </Excluded>
 </Configuration>

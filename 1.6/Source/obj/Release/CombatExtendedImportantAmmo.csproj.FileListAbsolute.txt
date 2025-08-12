@@ -5,3 +5,5 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Combat-Extended-Impo
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Combat-Extended-Important-Ammo\1.6\Source\obj\Release\CombatEx.125C8F98.Up2Date
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Combat-Extended-Important-Ammo\1.6\Source\obj\Release\CombatExtendedImportantAmmo.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Combat-Extended-Important-Ammo\1.6\Source\obj\Release\CombatExtendedImportantAmmo.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Combat-Extended-Important-Ammo\1.6\Assemblies\CombatExtendedImportantAmmo.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Combat-Extended-Important-Ammo\1.6\Assemblies\CombatExtendedImportantAmmo.pdb
