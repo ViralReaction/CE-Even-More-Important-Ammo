@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <AssemblyName>AmmoTweaksCE</AssemblyName>
+    <OutputPath>..\..\Assemblies\</OutputPath>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ProjectGuid>{A91C6F98-C174-47FD-8E8F-58470DEFF712}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <LangVersion>default</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>True</Optimize>
+    <DefineConstants>TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <AssemblyName>CombatExtendedImportantAmmo</AssemblyName>
+    <OutputPath>..\..\Assemblies\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <AssemblyName>CombatExtendedImportantAmmo</AssemblyName>
+    <OutputPath>..\..\Assemblies\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="..\..\dependencies\*.dll">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="..\..\dependencies\CE\*.dll">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="..\..\dependencies\UnityEngine\*.dll">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\ProcessorFramework\1.5\Assemblies\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="CombatExtended">
+      <HintPath>..\..\..\CombatExtended_Dev\Assemblies\CombatExtended.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="*.cs" />
+    <Compile Include="*\*.cs" />
+    <Compile Include="*\*\*.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Krafs.Publicizer">
+      <Version>2.3.0</Version>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Krafs.Rimworld.Ref">
+      <Version>1.6.4545-beta</Version>
+    </PackageReference>
+    <PackageReference Include="Lib.Harmony">
+      <Version>2.3.6</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Target Name="Build">
+  </Target>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
